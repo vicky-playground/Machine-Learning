@@ -29,7 +29,7 @@
   - Split the data into training and testing sets.
   - Use the training data to build the model and the testing data to evaluate the performance of the model.
  
-7. Feature Scaling: Normalization/Standardization:
+7. Feature Scaling: Normalization/Standardization
   - Normalize or standardize the data after splitting it into training and testing sets.
   - Only use the training data to calculate the normalization or standardization parameters to avoid bias in the evaluation of the model.
 
