@@ -1,6 +1,6 @@
 ## My tips on the data preparation for ML from data cleaning to splitting data
 
-1. Observing the data:
+1. Observe the data:
   - Check the size of the data and make sure it's appropriate for the analysis.
   - Check for missing values and duplicate values in the data and handle them accordingly.
   - Use df.info() to identify the data types of each column in the dataset and determine if any data transformations will be needed.
@@ -17,7 +17,7 @@
   - Combine columns if necessary to simplify the data.
   - Convert float to int if necessary using .astype(int).
 
-4. Check for outliers:
+4. Handle outliers:
   - Identify any data points that are significantly different from the others in the dataset.
   - Determine if these outliers should be removed or handled in a different way.
 
