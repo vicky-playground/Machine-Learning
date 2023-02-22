@@ -10,11 +10,11 @@
   - Use df.hist() to plot a histogram of the data and visually inspect the distribution of the variables.
   - Use a heatmap of sns.heatmap(df.corr()) to identify any correlations between variables.
   - Consider log transformation for any right-skewed data.
-  - Feature Engineering:
 
-3. Convert categorical variables into ordinal variables if necessary.
+3. Feature Engineering:
+  - Convert categorical variables into ordinal variables if necessary.
   - Add new columns of percentages or age if needed.
-  - Combine columns if necessary to simplify the data.
+  - Data aggregation/disaggregation. Ex: Combine columns if necessary to simplify the data.
   - Convert float to int if necessary using .astype(int).
 
 4. Handle outliers:
