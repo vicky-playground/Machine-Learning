@@ -9,7 +9,7 @@
 2. Exploratory Data Analysis (EDA):
   - Use df.hist() to plot a histogram of the data and visually inspect the distribution of the variables.
   - Use a heatmap of sns.heatmap(df.corr()) to identify any correlations between variables.
-  - Consider log transformation for any right-skewed data.
+  - Consider log transformation for any right-skewed data. -> make stats more interpretable, not affect the prediction result
 
 3. Feature Engineering:
   - Convert categorical variables into ordinal variables if necessary.
