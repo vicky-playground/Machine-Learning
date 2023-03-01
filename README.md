@@ -4,12 +4,12 @@
   - Check the size of the data and make sure it's appropriate for the analysis.
   - Check for missing values and duplicate values in the data and handle them accordingly.
   - Use df.info() to identify the data types of each column in the dataset and determine if any data transformations will be needed.
-  - Check for skewed data and determine if log transformation is needed to correct it.
+  - Check for skewed data and determine if log transformation is needed to correct it. -> make stats more interpretable, not affect the prediction result
 
 2. Exploratory Data Analysis (EDA):
   - Use df.hist() to plot a histogram of the data and visually inspect the distribution of the variables.
   - Use a heatmap of sns.heatmap(df.corr()) to identify any correlations between variables.
-  - Consider log transformation for any right-skewed data. -> make stats more interpretable, not affect the prediction result
+  - Consider log transformation for any right-skewed data. 
 
 3. Feature Engineering:
   - Convert categorical variables into ordinal variables if necessary.
