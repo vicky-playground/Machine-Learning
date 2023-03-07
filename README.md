@@ -35,3 +35,5 @@
     - The **fit(data)** method is used to compute the mean and std dev for a given feature to be used further for scaling. The fit function computes the formulation to transform the column based on **[Standard scaling](https://www.geeksforgeeks.org/data-pre-processing-wit-sklearn-using-standard-and-minmax-scaler/)** but doesn’t apply the actual transformation. The computation is stored as a fit object. The fit method doesn’t return anything.
     - The **transform(data)** method is used to perform scaling using mean and std dev calculated using the .fit() method. Using the transform method we can use the same mean and variance as it is calculated from our training data to transform our test data. The transform method takes advantage of the fit object in the fit() method and applies the actual transformation onto the column.
     - The **fit_transform()** method does both fits and transform.
+8. PCA
+  - X_train = pca.fit_transform(X_train) and then X_test = pca.transform(X_test)
