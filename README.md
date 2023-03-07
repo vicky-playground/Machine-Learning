@@ -37,3 +37,4 @@
     - The **fit_transform()** method does both fits and transform.
 8. PCA
   - X_train = pca.fit_transform(X_train) and then X_test = pca.transform(X_test)
+  - When having high dimensionality with high correlated variable of one another, the PCA can improve the accuracy of classification model
